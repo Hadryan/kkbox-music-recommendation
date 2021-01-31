@@ -1,0 +1,6 @@
+https://www.kaggle.com/c/kkbox-music-recommendation-challenge/discussion/45213
+
+1. Un-terminated quotations in the songs.csv file cause you to lose about 513 songs when you read the file with Pandas. This is relatively easy to fix and I posted a [Kernel](https://www.kaggle.com/alexklibisz/songs-csv-quote-errors-cause-513-missing-songs).
+2. Un-terminated quotations in the song_extra_info.csv file cause you to lose about 1000 songs when you read the file with Pandas. Again, this is relatively easy to fix the same way as number 1.
+3. There are many songs (~10K IIRC) that are duplicates on all columns except song_id. If you use the song_id as the unique identifier, you'll find ~419K unique songs in the train and test sets. If you use the combination of all other song columns (length, language, name, artist, composer, …), you'll find ~410K unique songs in the dataset.
+4. There is a post about some Chinese language translations for "missing artists". I don't speak Mandarin, etc. so cannot provide much insight on it.
