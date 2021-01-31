@@ -1,0 +1,6 @@
+[submodule "solution/wsdm_music_recommendations"]
+	path = solution/wsdm_music_recommendations
+	url = https://github.com/VasiliyRubtsov/wsdm_music_recommendations.git
+[submodule "solution/Codes-for-WSDM-CUP-Music-Rec-1st-place-solution"]
+	path = solution/Codes-for-WSDM-CUP-Music-Rec-1st-place-solution
+	url = https://github.com/lystdo/Codes-for-WSDM-CUP-Music-Rec-1st-place-solution.git
