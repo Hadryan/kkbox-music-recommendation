@@ -37,3 +37,12 @@ XGBoost and CatBoost.
 ### Code
 
 https://github.com/VasiliyRubtsov/wsdm_music_recommendations/blob/master/pipeline.ipynb
+
+## 6
+
+https://www.kaggle.com/c/kkbox-music-recommendation-challenge/discussion/45999
+
+## 7
+
+https://www.kaggle.com/c/kkbox-music-recommendation-challenge/discussion/45614
+
